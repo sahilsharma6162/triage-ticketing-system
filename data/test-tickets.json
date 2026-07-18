@@ -1,0 +1,152 @@
+[
+  {
+    "id": "test_01",
+    "title": "Forgot password and reset link expired",
+    "description": "I need help. I forgot my password to access the portal. The reset email arrives, but when I click it says token expired.",
+    "expectedCategory": "Account Access & Security"
+  },
+  {
+    "id": "test_02",
+    "title": "Enabling 2FA for team account",
+    "description": "How can we force 2-factor authentication across all member logins? I don't see the global MFA settings in the admin directory.",
+    "expectedCategory": "Account Access & Security"
+  },
+  {
+    "id": "test_03",
+    "title": "Suspicious login notification received",
+    "description": "I just received an alert saying my account was logged in from Frankfurt, Germany, but I am in Canada. Is my password compromised?",
+    "expectedCategory": "Account Access & Security"
+  },
+  {
+    "id": "test_04",
+    "title": "Unlock account please",
+    "description": "My account is locked out because I entered the wrong passcode too many times. Please unlock my credentials.",
+    "expectedCategory": "Account Access & Security"
+  },
+  {
+    "id": "test_05",
+    "title": "Password reset button grayed out",
+    "description": "I am looking at the password change interface, but when I fill the inputs, the submit button is completely disabled. I can't update my credentials.",
+    "expectedCategory": "Account Access & Security"
+  },
+  {
+    "id": "test_06",
+    "title": "Double charge on monthly subscription",
+    "description": "I checked my Visa bank statement today and I was billed twice ($29.99 each) for my monthly subscription. Please help me get a refund for the extra charge.",
+    "expectedCategory": "Billing & Payments"
+  },
+  {
+    "id": "test_07",
+    "title": "Download past invoices as PDF",
+    "description": "I need my business invoices from last quarter for tax reporting. Where can I find and download billing receipts in PDF format?",
+    "expectedCategory": "Billing & Payments"
+  },
+  {
+    "id": "test_08",
+    "title": "Declined card payment on upgrade",
+    "description": "I tried upgrading my tier to Enterprise, but my card keeps showing 'Transaction Declined'. I checked with my bank, and there is no blocker on their side.",
+    "expectedCategory": "Billing & Payments"
+  },
+  {
+    "id": "test_09",
+    "title": "Subscription cancellation query",
+    "description": "I want to cancel my renewal starting from next month. Will I still have access to the dashboard until the current billing cycle expires?",
+    "expectedCategory": "Billing & Payments"
+  },
+  {
+    "id": "test_10",
+    "title": "Change invoice billing address",
+    "description": "Can you please update our corporate tax details and billing address shown on future invoices? The new address is 500 Market St, SF.",
+    "expectedCategory": "Billing & Payments"
+  },
+  {
+    "id": "test_11",
+    "title": "API returning 500 error",
+    "description": "I am sending a POST request to /v1/records and it keeps throwing a 500 Internal Server Error back. The request body is properly formatted. Here is the response: {\"error\": \"Database connection timed out\"}.",
+    "expectedCategory": "Technical Support"
+  },
+  {
+    "id": "test_12",
+    "title": "Console error on analytics page",
+    "description": "The chart is not loading on my client portal. When I open developer tools, I see 'Uncaught TypeError: Cannot read properties of undefined (reading data)' in bundle.js.",
+    "expectedCategory": "Technical Support"
+  },
+  {
+    "id": "test_13",
+    "title": "Service is down and offline",
+    "description": "Our team cannot reach your platform. Everything is returning a gateway timeout or failing to load entirely. Is there a general outage active?",
+    "expectedCategory": "Technical Support"
+  },
+  {
+    "id": "test_14",
+    "title": "Broken contact form submission",
+    "description": "Whenever we hit the submit button on the reach-out form, the application spins infinitely and nothing happens. No errors in console, just infinite loading spinner.",
+    "expectedCategory": "Technical Support"
+  },
+  {
+    "id": "test_15",
+    "title": "Data export failing to CSV",
+    "description": "When I trigger download as CSV on the records grid, it saves a file containing 0 bytes. All row values are blank inside the file structure.",
+    "expectedCategory": "Technical Support"
+  },
+  {
+    "id": "test_16",
+    "title": "Request: Support dark mode interface",
+    "description": "We work late shifts, and the bright white default layout causes eye fatigue. Would it be possible to add direct support for a dark mode styling toggle?",
+    "expectedCategory": "Feature Request"
+  },
+  {
+    "id": "test_17",
+    "title": "Sync records with Slack channel integrations",
+    "description": "We want an option to automatically send message updates into our Slack channel whenever a high-confidence triage action is registered in the database.",
+    "expectedCategory": "Feature Request"
+  },
+  {
+    "id": "test_18",
+    "title": "Add multi-language support in notification templates",
+    "description": "We are expanding our business globally. Can we get translation support for Spanish, French, and Japanese in automated email alerts?",
+    "expectedCategory": "Feature Request"
+  },
+  {
+    "id": "test_19",
+    "title": "Export records to Google Drive",
+    "description": "It would save us a lot of time if we had a direct export button to sync database tables with Google Sheets API directly.",
+    "expectedCategory": "Feature Request"
+  },
+  {
+    "id": "test_20",
+    "title": "Bulk delete action inside reports library",
+    "description": "Right now, we have to clean reports manually one-by-one. We request a checkbox selector to perform bulk delete operations on multiple rows.",
+    "expectedCategory": "Feature Request"
+  },
+  {
+    "id": "test_21",
+    "title": "Pricing overview inquiry",
+    "description": "Do you offer any discounts for registered non-profit organizations or early-stage startups? We are planning to scale our teams next quarter.",
+    "expectedCategory": "General Inquiry"
+  },
+  {
+    "id": "test_22",
+    "title": "What are your standard support desk hours?",
+    "description": "I would like to know the typical operations window for your support team. Do you have technician coverage over weekend schedules?",
+    "expectedCategory": "General Inquiry"
+  },
+  {
+    "id": "test_23",
+    "title": "Corporate office location",
+    "description": "We are sending some formal hardware devices over for testing. Could you share the official physical mailing address of your regional headquarters?",
+    "expectedCategory": "General Inquiry"
+  },
+  {
+    "id": "test_24",
+    "title": "Partnership opportunities inquiry",
+    "description": "We are an agency looking to co-sell your product to our enterprise customers. Who should we contact from your partnerships or BD department?",
+    "expectedCategory": "General Inquiry"
+  },
+  {
+    "id": "test_25",
+    "title": "General feedback regarding services",
+    "description": "We have been using the product for six months. The performance is solid, and we appreciate the team's ongoing maintenance updates.",
+    "expectedCategory": "General Inquiry"
+  }
+]
